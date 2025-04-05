@@ -25,6 +25,13 @@ freelancer_vectors = vectorizer.fit_transform(freelancer_texts)
 
 # FastAPI setup
 app = FastAPI()
+# ✅ New homepage route
+@app.get("/")
+def root():
+    return {
+        "message": "🚀 Welcome to the Freelancer Recommendation API!",
+        "usage": "POST a job description to /recommend OR visit /docs for Swagger UI."
+    }
 
 
 # Request body model
