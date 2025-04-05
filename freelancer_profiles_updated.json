@@ -3,26 +3,28 @@
     "serial_no": 1,
     "name": "Bryan Gregory",
     "skills": [
-      "NumPy",
-      "TensorFlow",
+      "Numpy",
+      "Tensorflow",
       "Pandas",
       "Docker",
-      "MongoDB"
+      "Mongodb"
     ],
     "past_projects": [
       "image recognition",
       "chatbot",
       "fraud detection"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "10 $",
+    "availability_in_days": 25
   },
   {
     "serial_no": 2,
     "name": "Kelly Weiss",
     "skills": [
       "React",
-      "DevOps",
-      "TensorFlow",
+      "Devops",
+      "Tensorflow",
       "Kubernetes",
       "Django",
       "Docker"
@@ -31,33 +33,37 @@
       "image recognition",
       "voice assistant"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "78 $",
+    "availability_in_days": 3
   },
   {
     "serial_no": 3,
     "name": "Lori Cortez",
     "skills": [
       "Machine Learning",
-      "SQL",
-      "Node.js",
+      "Sql",
+      "Node.Js",
       "Python",
-      "TensorFlow",
-      "PyTorch"
+      "Tensorflow",
+      "Pytorch"
     ],
     "past_projects": [
       "fraud detection",
       "customer segmentation"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "80 $",
+    "availability_in_days": 22
   },
   {
     "serial_no": 4,
     "name": "Kimberly Nichols",
     "skills": [
-      "Node.js",
+      "Node.Js",
       "Machine Learning",
       "Computer Vision",
-      "MongoDB",
+      "Mongodb",
       "Flask",
       "Django"
     ],
@@ -65,7 +71,9 @@
       "portfolio website",
       "data pipeline"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "92 $",
+    "availability_in_days": 15
   },
   {
     "serial_no": 5,
@@ -82,15 +90,17 @@
       "text classification",
       "ecommerce site"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "38 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 6,
     "name": "Mrs. Jessica Gamble",
     "skills": [
-      "AWS",
+      "Aws",
       "Pandas",
-      "GCP",
+      "Gcp",
       "Computer Vision"
     ],
     "past_projects": [
@@ -99,7 +109,9 @@
       "ecommerce site",
       "object detection"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "78 $",
+    "availability_in_days": 24
   },
   {
     "serial_no": 7,
@@ -107,7 +119,7 @@
     "skills": [
       "Kubernetes",
       "Deep Learning",
-      "TensorFlow",
+      "Tensorflow",
       "Computer Vision",
       "Django"
     ],
@@ -117,18 +129,20 @@
       "sales prediction",
       "portfolio website"
     ],
-    "experience_years": 10
+    "experience_years": 10,
+    "expected_rate": "42 $",
+    "availability_in_days": 5
   },
   {
     "serial_no": 8,
     "name": "Andrew Valdez",
     "skills": [
-      "SQL",
+      "Sql",
       "Python",
       "Docker",
-      "DevOps",
+      "Devops",
       "Django",
-      "MongoDB"
+      "Mongodb"
     ],
     "past_projects": [
       "customer segmentation",
@@ -136,30 +150,34 @@
       "recommendation system",
       "text classification"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "64 $",
+    "availability_in_days": 17
   },
   {
     "serial_no": 9,
     "name": "Robert Young",
     "skills": [
-      "NLP",
+      "Nlp",
       "Deep Learning",
-      "MongoDB",
-      "SQL",
+      "Mongodb",
+      "Sql",
       "Pandas"
     ],
     "past_projects": [
       "object detection",
       "customer segmentation"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "81 $",
+    "availability_in_days": 11
   },
   {
     "serial_no": 10,
     "name": "Paul King",
     "skills": [
-      "MongoDB",
-      "TensorFlow",
+      "Mongodb",
+      "Tensorflow",
       "Computer Vision",
       "Python"
     ],
@@ -168,15 +186,17 @@
       "chatbot",
       "customer segmentation"
     ],
-    "experience_years": 10
+    "experience_years": 10,
+    "expected_rate": "62 $",
+    "availability_in_days": 19
   },
   {
     "serial_no": 11,
     "name": "Claudia Perry",
     "skills": [
-      "TensorFlow",
+      "Tensorflow",
       "Pandas",
-      "GCP",
+      "Gcp",
       "Machine Learning",
       "Kubernetes"
     ],
@@ -185,17 +205,19 @@
       "fraud detection",
       "data pipeline"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "93 $",
+    "availability_in_days": 10
   },
   {
     "serial_no": 12,
     "name": "Kayla Gordon",
     "skills": [
-      "NLP",
-      "PyTorch",
+      "Nlp",
+      "Pytorch",
       "React",
-      "Node.js",
-      "JavaScript",
+      "Node.Js",
+      "Javascript",
       "Deep Learning"
     ],
     "past_projects": [
@@ -203,14 +225,16 @@
       "portfolio website",
       "ecommerce site"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "26 $",
+    "availability_in_days": 26
   },
   {
     "serial_no": 13,
     "name": "Jennifer Torres",
     "skills": [
       "Docker",
-      "NumPy",
+      "Numpy",
       "Kubernetes",
       "Flask"
     ],
@@ -219,30 +243,34 @@
       "data pipeline",
       "portfolio website"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "86 $",
+    "availability_in_days": 13
   },
   {
     "serial_no": 14,
     "name": "Aaron Bates",
     "skills": [
-      "NumPy",
-      "Node.js",
+      "Numpy",
+      "Node.Js",
       "Computer Vision"
     ],
     "past_projects": [
       "ecommerce site",
       "voice assistant"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "100 $",
+    "availability_in_days": 23
   },
   {
     "serial_no": 15,
     "name": "Barbara Michael",
     "skills": [
-      "PyTorch",
-      "JavaScript",
-      "AWS",
-      "Node.js",
+      "Pytorch",
+      "Javascript",
+      "Aws",
+      "Node.Js",
       "Docker",
       "Python"
     ],
@@ -251,7 +279,9 @@
       "customer segmentation",
       "voice assistant"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "19 $",
+    "availability_in_days": 27
   },
   {
     "serial_no": 16,
@@ -259,30 +289,34 @@
     "skills": [
       "Deep Learning",
       "Django",
-      "Node.js",
-      "NLP"
+      "Node.Js",
+      "Nlp"
     ],
     "past_projects": [
       "ecommerce site",
       "recommendation system",
       "fraud detection"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "12 $",
+    "availability_in_days": 27
   },
   {
     "serial_no": 17,
     "name": "Nicholas Hendrix",
     "skills": [
-      "NLP",
+      "Nlp",
       "Django",
-      "AWS"
+      "Aws"
     ],
     "past_projects": [
       "customer segmentation",
       "text classification",
       "ecommerce site"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "96 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 18,
@@ -291,8 +325,8 @@
       "Deep Learning",
       "Docker",
       "Pandas",
-      "NumPy",
-      "GCP",
+      "Numpy",
+      "Gcp",
       "Flask"
     ],
     "past_projects": [
@@ -301,29 +335,33 @@
       "object detection",
       "sales prediction"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "41 $",
+    "availability_in_days": 4
   },
   {
     "serial_no": 19,
     "name": "Mr. Richard Caldwell",
     "skills": [
       "Machine Learning",
-      "MongoDB",
+      "Mongodb",
       "React"
     ],
     "past_projects": [
       "ecommerce site",
       "text classification"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "93 $",
+    "availability_in_days": 8
   },
   {
     "serial_no": 20,
     "name": "Michael Parker",
     "skills": [
-      "MongoDB",
-      "NLP",
-      "DevOps",
+      "Mongodb",
+      "Nlp",
+      "Devops",
       "Kubernetes",
       "Data Analysis"
     ],
@@ -332,15 +370,17 @@
       "portfolio website",
       "text classification"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "93 $",
+    "availability_in_days": 15
   },
   {
     "serial_no": 21,
-    "name": "Gina Allen MD",
+    "name": "Gina Allen Md",
     "skills": [
       "Python",
-      "PyTorch",
-      "SQL"
+      "Pytorch",
+      "Sql"
     ],
     "past_projects": [
       "chatbot",
@@ -348,18 +388,20 @@
       "text classification",
       "sales prediction"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "71 $",
+    "availability_in_days": 5
   },
   {
     "serial_no": 22,
     "name": "Rachel Hall",
     "skills": [
-      "TensorFlow",
+      "Tensorflow",
       "Computer Vision",
       "Flask",
       "Deep Learning",
       "Python",
-      "PyTorch"
+      "Pytorch"
     ],
     "past_projects": [
       "data pipeline",
@@ -367,14 +409,16 @@
       "chatbot",
       "portfolio website"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "48 $",
+    "availability_in_days": 29
   },
   {
     "serial_no": 23,
     "name": "Audrey Thomas",
     "skills": [
-      "GCP",
-      "AWS",
+      "Gcp",
+      "Aws",
       "Django",
       "Flask",
       "React"
@@ -383,98 +427,110 @@
       "portfolio website",
       "sales prediction"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "91 $",
+    "availability_in_days": 4
   },
   {
     "serial_no": 24,
     "name": "Mary Rogers",
     "skills": [
-      "GCP",
+      "Gcp",
       "Computer Vision",
       "Django",
       "Docker",
-      "DevOps",
-      "NumPy"
+      "Devops",
+      "Numpy"
     ],
     "past_projects": [
       "sales prediction",
       "ecommerce site",
       "portfolio website"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "57 $",
+    "availability_in_days": 12
   },
   {
     "serial_no": 25,
     "name": "Logan Young",
     "skills": [
-      "JavaScript",
-      "SQL",
+      "Javascript",
+      "Sql",
       "Pandas",
       "Python",
-      "NumPy"
+      "Numpy"
     ],
     "past_projects": [
       "fraud detection",
       "object detection"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "32 $",
+    "availability_in_days": 17
   },
   {
     "serial_no": 26,
     "name": "Chelsea Conley",
     "skills": [
       "React",
-      "JavaScript",
-      "GCP"
+      "Javascript",
+      "Gcp"
     ],
     "past_projects": [
       "text classification",
       "ecommerce site",
       "data pipeline"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "77 $",
+    "availability_in_days": 10
   },
   {
     "serial_no": 27,
     "name": "Daniel Wright",
     "skills": [
-      "AWS",
+      "Aws",
       "Deep Learning",
       "Data Analysis",
-      "TensorFlow"
+      "Tensorflow"
     ],
     "past_projects": [
       "ecommerce site",
       "fraud detection",
       "text classification"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "35 $",
+    "availability_in_days": 8
   },
   {
     "serial_no": 28,
     "name": "Janice Hughes",
     "skills": [
-      "NumPy",
-      "JavaScript",
+      "Numpy",
+      "Javascript",
       "Pandas",
-      "PyTorch",
+      "Pytorch",
       "React"
     ],
     "past_projects": [
       "customer segmentation",
       "portfolio website"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "96 $",
+    "availability_in_days": 10
   },
   {
     "serial_no": 29,
     "name": "Lucas Jones",
     "skills": [
       "React",
-      "NLP",
+      "Nlp",
       "Pandas",
-      "MongoDB",
-      "NumPy",
+      "Mongodb",
+      "Numpy",
       "Flask"
     ],
     "past_projects": [
@@ -482,32 +538,36 @@
       "recommendation system",
       "text classification"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "56 $",
+    "availability_in_days": 29
   },
   {
     "serial_no": 30,
     "name": "Jennifer Walls",
     "skills": [
-      "DevOps",
+      "Devops",
       "React",
       "Computer Vision",
       "Machine Learning",
-      "NLP"
+      "Nlp"
     ],
     "past_projects": [
       "fraud detection",
       "chatbot",
       "image recognition"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "17 $",
+    "availability_in_days": 25
   },
   {
     "serial_no": 31,
-    "name": "Louis Short MD",
+    "name": "Louis Short Md",
     "skills": [
-      "JavaScript",
+      "Javascript",
       "Deep Learning",
-      "GCP",
+      "Gcp",
       "Python",
       "Computer Vision",
       "Django"
@@ -518,18 +578,20 @@
       "sales prediction",
       "text classification"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "89 $",
+    "availability_in_days": 24
   },
   {
     "serial_no": 32,
     "name": "Kimberly Oconnor",
     "skills": [
-      "GCP",
+      "Gcp",
       "Deep Learning",
-      "JavaScript",
-      "AWS",
+      "Javascript",
+      "Aws",
       "Django",
-      "TensorFlow"
+      "Tensorflow"
     ],
     "past_projects": [
       "customer segmentation",
@@ -537,13 +599,15 @@
       "fraud detection",
       "sales prediction"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "68 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 33,
     "name": "Patrick Bell",
     "skills": [
-      "JavaScript",
+      "Javascript",
       "Python",
       "Docker",
       "Django",
@@ -556,7 +620,9 @@
       "chatbot",
       "voice assistant"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "35 $",
+    "availability_in_days": 3
   },
   {
     "serial_no": 34,
@@ -565,24 +631,26 @@
       "Django",
       "Python",
       "Computer Vision",
-      "Node.js",
-      "NLP"
+      "Node.Js",
+      "Nlp"
     ],
     "past_projects": [
       "image recognition",
       "voice assistant"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "84 $",
+    "availability_in_days": 16
   },
   {
     "serial_no": 35,
     "name": "Kyle Brown",
     "skills": [
       "Machine Learning",
-      "SQL",
+      "Sql",
       "Flask",
       "Pandas",
-      "Node.js",
+      "Node.Js",
       "React"
     ],
     "past_projects": [
@@ -591,14 +659,16 @@
       "voice assistant",
       "recommendation system"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "38 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 36,
     "name": "Natasha Merritt",
     "skills": [
       "Flask",
-      "DevOps",
+      "Devops",
       "Django"
     ],
     "past_projects": [
@@ -606,13 +676,15 @@
       "data pipeline",
       "customer segmentation"
     ],
-    "experience_years": 10
+    "experience_years": 10,
+    "expected_rate": "66 $",
+    "availability_in_days": 13
   },
   {
     "serial_no": 37,
     "name": "Elizabeth Martin",
     "skills": [
-      "PyTorch",
+      "Pytorch",
       "Pandas",
       "Kubernetes"
     ],
@@ -621,7 +693,9 @@
       "image recognition",
       "chatbot"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "62 $",
+    "availability_in_days": 17
   },
   {
     "serial_no": 38,
@@ -629,7 +703,7 @@
     "skills": [
       "Django",
       "Computer Vision",
-      "SQL",
+      "Sql",
       "Flask",
       "Machine Learning",
       "Python"
@@ -640,68 +714,78 @@
       "object detection",
       "text classification"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "35 $",
+    "availability_in_days": 18
   },
   {
     "serial_no": 39,
     "name": "Jasmine Ortiz",
     "skills": [
       "Data Analysis",
-      "JavaScript",
+      "Javascript",
       "Pandas",
-      "PyTorch"
+      "Pytorch"
     ],
     "past_projects": [
       "data pipeline",
       "recommendation system"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "65 $",
+    "availability_in_days": 17
   },
   {
     "serial_no": 40,
-    "name": "Dana Pitts DDS",
+    "name": "Dana Pitts Dds",
     "skills": [
       "Deep Learning",
       "Flask",
-      "PyTorch"
+      "Pytorch"
     ],
     "past_projects": [
       "customer segmentation",
       "sales prediction",
       "object detection"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "92 $",
+    "availability_in_days": 25
   },
   {
     "serial_no": 41,
     "name": "Mark Hayes",
     "skills": [
       "React",
-      "TensorFlow",
-      "JavaScript",
-      "NLP"
+      "Tensorflow",
+      "Javascript",
+      "Nlp"
     ],
     "past_projects": [
       "text classification",
       "sales prediction",
       "fraud detection"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "22 $",
+    "availability_in_days": 12
   },
   {
     "serial_no": 42,
     "name": "Donald Wilcox",
     "skills": [
       "Pandas",
-      "AWS",
-      "MongoDB",
+      "Aws",
+      "Mongodb",
       "React"
     ],
     "past_projects": [
       "text classification",
       "ecommerce site"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "44 $",
+    "availability_in_days": 7
   },
   {
     "serial_no": 43,
@@ -710,27 +794,29 @@
       "Data Analysis",
       "Machine Learning",
       "React",
-      "NumPy",
-      "GCP",
-      "PyTorch"
+      "Numpy",
+      "Gcp",
+      "Pytorch"
     ],
     "past_projects": [
       "sales prediction",
       "object detection",
       "data pipeline"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "35 $",
+    "availability_in_days": 21
   },
   {
     "serial_no": 44,
     "name": "Jordan Torres",
     "skills": [
-      "AWS",
+      "Aws",
       "Python",
       "Computer Vision",
-      "MongoDB",
+      "Mongodb",
       "Pandas",
-      "JavaScript"
+      "Javascript"
     ],
     "past_projects": [
       "chatbot",
@@ -738,55 +824,63 @@
       "portfolio website",
       "text classification"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "32 $",
+    "availability_in_days": 7
   },
   {
     "serial_no": 45,
     "name": "Jessica Bennett",
     "skills": [
-      "GCP",
-      "TensorFlow",
-      "AWS"
+      "Gcp",
+      "Tensorflow",
+      "Aws"
     ],
     "past_projects": [
       "ecommerce site",
       "image recognition"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "15 $",
+    "availability_in_days": 10
   },
   {
     "serial_no": 46,
     "name": "Lisa Rivera",
     "skills": [
-      "SQL",
+      "Sql",
       "Docker",
-      "PyTorch",
+      "Pytorch",
       "Django",
-      "MongoDB"
+      "Mongodb"
     ],
     "past_projects": [
       "chatbot",
       "portfolio website",
       "fraud detection"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "58 $",
+    "availability_in_days": 6
   },
   {
     "serial_no": 47,
     "name": "Jeffrey Odonnell",
     "skills": [
-      "AWS",
-      "TensorFlow",
+      "Aws",
+      "Tensorflow",
       "Data Analysis",
       "Kubernetes",
-      "PyTorch",
+      "Pytorch",
       "Deep Learning"
     ],
     "past_projects": [
       "chatbot",
       "recommendation system"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "24 $",
+    "availability_in_days": 19
   },
   {
     "serial_no": 48,
@@ -795,7 +889,7 @@
       "Machine Learning",
       "Django",
       "Deep Learning",
-      "NLP"
+      "Nlp"
     ],
     "past_projects": [
       "customer segmentation",
@@ -803,17 +897,19 @@
       "voice assistant",
       "fraud detection"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "81 $",
+    "availability_in_days": 5
   },
   {
     "serial_no": 49,
     "name": "Robert Jordan",
     "skills": [
       "Docker",
-      "DevOps",
+      "Devops",
       "Machine Learning",
-      "Node.js",
-      "AWS",
+      "Node.Js",
+      "Aws",
       "Kubernetes"
     ],
     "past_projects": [
@@ -821,22 +917,26 @@
       "chatbot",
       "fraud detection"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "12 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 50,
     "name": "Jason Jenkins",
     "skills": [
-      "DevOps",
-      "JavaScript",
-      "SQL"
+      "Devops",
+      "Javascript",
+      "Sql"
     ],
     "past_projects": [
       "ecommerce site",
       "customer segmentation",
       "voice assistant"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "82 $",
+    "availability_in_days": 15
   },
   {
     "serial_no": 51,
@@ -845,7 +945,7 @@
       "React",
       "Machine Learning",
       "Flask",
-      "GCP"
+      "Gcp"
     ],
     "past_projects": [
       "voice assistant",
@@ -853,47 +953,53 @@
       "image recognition",
       "sales prediction"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "61 $",
+    "availability_in_days": 25
   },
   {
     "serial_no": 52,
     "name": "Kelly Cuevas",
     "skills": [
-      "SQL",
+      "Sql",
       "Django",
-      "PyTorch"
+      "Pytorch"
     ],
     "past_projects": [
       "chatbot",
       "ecommerce site",
       "recommendation system"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "68 $",
+    "availability_in_days": 6
   },
   {
     "serial_no": 53,
     "name": "David Taylor",
     "skills": [
       "Flask",
-      "TensorFlow",
-      "GCP"
+      "Tensorflow",
+      "Gcp"
     ],
     "past_projects": [
       "recommendation system",
       "portfolio website"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "54 $",
+    "availability_in_days": 12
   },
   {
     "serial_no": 54,
     "name": "Julie Taylor",
     "skills": [
-      "PyTorch",
+      "Pytorch",
       "React",
-      "Node.js",
+      "Node.Js",
       "Deep Learning",
-      "JavaScript",
-      "NLP"
+      "Javascript",
+      "Nlp"
     ],
     "past_projects": [
       "ecommerce site",
@@ -901,17 +1007,19 @@
       "fraud detection",
       "object detection"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "97 $",
+    "availability_in_days": 6
   },
   {
     "serial_no": 55,
     "name": "Alice Wilkerson",
     "skills": [
       "Python",
-      "DevOps",
+      "Devops",
       "Pandas",
-      "JavaScript",
-      "SQL",
+      "Javascript",
+      "Sql",
       "Deep Learning"
     ],
     "past_projects": [
@@ -920,54 +1028,62 @@
       "sales prediction",
       "object detection"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "57 $",
+    "availability_in_days": 28
   },
   {
     "serial_no": 56,
     "name": "Jessica Harris",
     "skills": [
       "Pandas",
-      "DevOps",
-      "SQL"
+      "Devops",
+      "Sql"
     ],
     "past_projects": [
       "text classification",
       "voice assistant"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "72 $",
+    "availability_in_days": 22
   },
   {
     "serial_no": 57,
     "name": "Christina Johnson",
     "skills": [
-      "MongoDB",
+      "Mongodb",
       "Deep Learning",
-      "JavaScript"
+      "Javascript"
     ],
     "past_projects": [
       "object detection",
       "data pipeline",
       "image recognition"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "50 $",
+    "availability_in_days": 4
   },
   {
     "serial_no": 58,
     "name": "Daniel Spears",
     "skills": [
       "Pandas",
-      "MongoDB",
+      "Mongodb",
       "Django",
-      "NLP",
+      "Nlp",
       "Python",
-      "SQL"
+      "Sql"
     ],
     "past_projects": [
       "sales prediction",
       "voice assistant",
       "portfolio website"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "36 $",
+    "availability_in_days": 22
   },
   {
     "serial_no": 59,
@@ -975,13 +1091,15 @@
     "skills": [
       "Django",
       "Pandas",
-      "SQL"
+      "Sql"
     ],
     "past_projects": [
       "data pipeline",
       "recommendation system"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "11 $",
+    "availability_in_days": 26
   },
   {
     "serial_no": 60,
@@ -991,20 +1109,22 @@
       "Python",
       "React",
       "Pandas",
-      "NumPy"
+      "Numpy"
     ],
     "past_projects": [
       "portfolio website",
       "data pipeline"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "27 $",
+    "availability_in_days": 3
   },
   {
     "serial_no": 61,
     "name": "Mr. Thomas Bolton",
     "skills": [
       "Django",
-      "JavaScript",
+      "Javascript",
       "Kubernetes",
       "React",
       "Deep Learning",
@@ -1015,7 +1135,9 @@
       "portfolio website",
       "voice assistant"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "52 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 62,
@@ -1023,16 +1145,18 @@
     "skills": [
       "Django",
       "Computer Vision",
-      "TensorFlow",
-      "DevOps",
+      "Tensorflow",
+      "Devops",
       "Machine Learning",
-      "SQL"
+      "Sql"
     ],
     "past_projects": [
       "ecommerce site",
       "portfolio website"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "23 $",
+    "availability_in_days": 14
   },
   {
     "serial_no": 63,
@@ -1048,14 +1172,16 @@
       "text classification",
       "fraud detection"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "62 $",
+    "availability_in_days": 10
   },
   {
     "serial_no": 64,
     "name": "Jacqueline Martin",
     "skills": [
       "React",
-      "GCP",
+      "Gcp",
       "Django",
       "Flask",
       "Data Analysis",
@@ -1066,7 +1192,9 @@
       "ecommerce site",
       "data pipeline"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "28 $",
+    "availability_in_days": 18
   },
   {
     "serial_no": 65,
@@ -1076,8 +1204,8 @@
       "Deep Learning",
       "Machine Learning",
       "Computer Vision",
-      "TensorFlow",
-      "AWS"
+      "Tensorflow",
+      "Aws"
     ],
     "past_projects": [
       "object detection",
@@ -1085,31 +1213,35 @@
       "fraud detection",
       "ecommerce site"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "80 $",
+    "availability_in_days": 30
   },
   {
     "serial_no": 66,
     "name": "John Pearson",
     "skills": [
-      "Node.js",
+      "Node.Js",
       "Flask",
-      "JavaScript",
-      "DevOps",
+      "Javascript",
+      "Devops",
       "Django",
-      "NLP"
+      "Nlp"
     ],
     "past_projects": [
       "data pipeline",
       "object detection",
       "text classification"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "40 $",
+    "availability_in_days": 21
   },
   {
     "serial_no": 67,
     "name": "Wendy Nolan",
     "skills": [
-      "NLP",
+      "Nlp",
       "Kubernetes",
       "Pandas"
     ],
@@ -1119,23 +1251,27 @@
       "sales prediction",
       "voice assistant"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "89 $",
+    "availability_in_days": 6
   },
   {
     "serial_no": 68,
     "name": "Kathryn Henderson",
     "skills": [
-      "PyTorch",
+      "Pytorch",
       "Django",
-      "DevOps",
-      "Node.js",
+      "Devops",
+      "Node.Js",
       "Machine Learning"
     ],
     "past_projects": [
       "portfolio website",
       "voice assistant"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "28 $",
+    "availability_in_days": 19
   },
   {
     "serial_no": 69,
@@ -1144,21 +1280,23 @@
       "Deep Learning",
       "Data Analysis",
       "Computer Vision",
-      "NumPy"
+      "Numpy"
     ],
     "past_projects": [
       "voice assistant",
       "sales prediction"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "74 $",
+    "availability_in_days": 11
   },
   {
     "serial_no": 70,
     "name": "Mrs. Carla Mullins",
     "skills": [
-      "Node.js",
+      "Node.Js",
       "Pandas",
-      "AWS"
+      "Aws"
     ],
     "past_projects": [
       "text classification",
@@ -1166,30 +1304,34 @@
       "object detection",
       "fraud detection"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "86 $",
+    "availability_in_days": 11
   },
   {
     "serial_no": 71,
     "name": "Ann Baker",
     "skills": [
       "Computer Vision",
-      "JavaScript",
+      "Javascript",
       "Django"
     ],
     "past_projects": [
       "image recognition",
       "customer segmentation"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "17 $",
+    "availability_in_days": 22
   },
   {
     "serial_no": 72,
     "name": "Jeffrey Smith",
     "skills": [
-      "DevOps",
-      "MongoDB",
-      "PyTorch",
-      "NumPy"
+      "Devops",
+      "Mongodb",
+      "Pytorch",
+      "Numpy"
     ],
     "past_projects": [
       "ecommerce site",
@@ -1197,51 +1339,57 @@
       "sales prediction",
       "data pipeline"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "61 $",
+    "availability_in_days": 4
   },
   {
     "serial_no": 73,
     "name": "Kevin Johnson",
     "skills": [
       "Python",
-      "GCP",
+      "Gcp",
       "Pandas",
-      "PyTorch",
-      "SQL",
-      "AWS"
+      "Pytorch",
+      "Sql",
+      "Aws"
     ],
     "past_projects": [
       "portfolio website",
       "data pipeline"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "14 $",
+    "availability_in_days": 20
   },
   {
     "serial_no": 74,
     "name": "Audrey Smith",
     "skills": [
       "Kubernetes",
-      "DevOps",
-      "SQL",
+      "Devops",
+      "Sql",
       "Data Analysis",
       "Docker",
-      "NLP"
+      "Nlp"
     ],
     "past_projects": [
       "text classification",
       "image recognition",
       "customer segmentation"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "68 $",
+    "availability_in_days": 11
   },
   {
     "serial_no": 75,
     "name": "Jordan Hall",
     "skills": [
-      "NumPy",
+      "Numpy",
       "Flask",
       "Docker",
-      "TensorFlow",
+      "Tensorflow",
       "Computer Vision",
       "Deep Learning"
     ],
@@ -1250,45 +1398,51 @@
       "text classification",
       "portfolio website"
     ],
-    "experience_years": 3
+    "experience_years": 3,
+    "expected_rate": "50 $",
+    "availability_in_days": 19
   },
   {
     "serial_no": 76,
     "name": "Paige Carter",
     "skills": [
       "Kubernetes",
-      "SQL",
-      "MongoDB"
+      "Sql",
+      "Mongodb"
     ],
     "past_projects": [
       "voice assistant",
       "text classification",
       "recommendation system"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "40 $",
+    "availability_in_days": 29
   },
   {
     "serial_no": 77,
     "name": "Jason Santos",
     "skills": [
       "Flask",
-      "Node.js",
-      "SQL"
+      "Node.Js",
+      "Sql"
     ],
     "past_projects": [
       "object detection",
       "portfolio website",
       "text classification"
     ],
-    "experience_years": 7
+    "experience_years": 7,
+    "expected_rate": "88 $",
+    "availability_in_days": 29
   },
   {
     "serial_no": 78,
     "name": "Cody Harrison",
     "skills": [
       "Flask",
-      "TensorFlow",
-      "MongoDB",
+      "Tensorflow",
+      "Mongodb",
       "Computer Vision",
       "Machine Learning"
     ],
@@ -1298,7 +1452,9 @@
       "image recognition",
       "object detection"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "12 $",
+    "availability_in_days": 12
   },
   {
     "serial_no": 79,
@@ -1306,8 +1462,8 @@
     "skills": [
       "Kubernetes",
       "Data Analysis",
-      "SQL",
-      "MongoDB",
+      "Sql",
+      "Mongodb",
       "React",
       "Machine Learning"
     ],
@@ -1315,34 +1471,38 @@
       "recommendation system",
       "portfolio website"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "53 $",
+    "availability_in_days": 7
   },
   {
     "serial_no": 80,
     "name": "Nicole Mccormick",
     "skills": [
-      "NumPy",
-      "TensorFlow",
+      "Numpy",
+      "Tensorflow",
       "Computer Vision",
-      "MongoDB",
+      "Mongodb",
       "Docker",
-      "GCP"
+      "Gcp"
     ],
     "past_projects": [
       "fraud detection",
       "sales prediction"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "85 $",
+    "availability_in_days": 6
   },
   {
     "serial_no": 81,
     "name": "David Chapman",
     "skills": [
       "Pandas",
-      "DevOps",
+      "Devops",
       "Deep Learning",
       "React",
-      "PyTorch"
+      "Pytorch"
     ],
     "past_projects": [
       "voice assistant",
@@ -1350,13 +1510,15 @@
       "portfolio website",
       "fraud detection"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "55 $",
+    "availability_in_days": 16
   },
   {
     "serial_no": 82,
     "name": "Zachary Mitchell",
     "skills": [
-      "Node.js",
+      "Node.Js",
       "Machine Learning",
       "Docker"
     ],
@@ -1366,24 +1528,28 @@
       "customer segmentation",
       "object detection"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "35 $",
+    "availability_in_days": 24
   },
   {
     "serial_no": 83,
     "name": "Geoffrey West",
     "skills": [
       "Computer Vision",
-      "GCP",
+      "Gcp",
       "Flask",
       "Docker",
-      "MongoDB",
-      "DevOps"
+      "Mongodb",
+      "Devops"
     ],
     "past_projects": [
       "data pipeline",
       "voice assistant"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "13 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 84,
@@ -1398,31 +1564,35 @@
       "ecommerce site",
       "sales prediction"
     ],
-    "experience_years": 8
+    "experience_years": 8,
+    "expected_rate": "44 $",
+    "availability_in_days": 23
   },
   {
     "serial_no": 85,
     "name": "Zachary Johnston",
     "skills": [
-      "NumPy",
+      "Numpy",
       "Django",
       "Docker",
       "Python",
-      "AWS"
+      "Aws"
     ],
     "past_projects": [
       "chatbot",
       "voice assistant",
       "sales prediction"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "17 $",
+    "availability_in_days": 28
   },
   {
     "serial_no": 86,
     "name": "Tanya Duncan",
     "skills": [
-      "NLP",
-      "DevOps",
+      "Nlp",
+      "Devops",
       "Computer Vision",
       "Python",
       "Data Analysis",
@@ -1433,7 +1603,9 @@
       "object detection",
       "recommendation system"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "21 $",
+    "availability_in_days": 8
   },
   {
     "serial_no": 87,
@@ -1441,13 +1613,15 @@
     "skills": [
       "Django",
       "Pandas",
-      "NumPy"
+      "Numpy"
     ],
     "past_projects": [
       "object detection",
       "customer segmentation"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "76 $",
+    "availability_in_days": 26
   },
   {
     "serial_no": 88,
@@ -1463,15 +1637,17 @@
       "sales prediction",
       "fraud detection"
     ],
-    "experience_years": 10
+    "experience_years": 10,
+    "expected_rate": "40 $",
+    "availability_in_days": 30
   },
   {
     "serial_no": 89,
     "name": "Tyler Smith",
     "skills": [
-      "JavaScript",
+      "Javascript",
       "Django",
-      "GCP",
+      "Gcp",
       "Docker",
       "Pandas"
     ],
@@ -1480,13 +1656,15 @@
       "fraud detection",
       "chatbot"
     ],
-    "experience_years": 9
+    "experience_years": 9,
+    "expected_rate": "90 $",
+    "availability_in_days": 12
   },
   {
     "serial_no": 90,
     "name": "Charles Sutton",
     "skills": [
-      "MongoDB",
+      "Mongodb",
       "Kubernetes",
       "Pandas"
     ],
@@ -1494,7 +1672,9 @@
       "ecommerce site",
       "voice assistant"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "41 $",
+    "availability_in_days": 26
   },
   {
     "serial_no": 91,
@@ -1503,9 +1683,9 @@
       "React",
       "Computer Vision",
       "Kubernetes",
-      "AWS",
-      "Node.js",
-      "TensorFlow"
+      "Aws",
+      "Node.Js",
+      "Tensorflow"
     ],
     "past_projects": [
       "voice assistant",
@@ -1513,39 +1693,45 @@
       "chatbot",
       "ecommerce site"
     ],
-    "experience_years": 10
+    "experience_years": 10,
+    "expected_rate": "57 $",
+    "availability_in_days": 26
   },
   {
     "serial_no": 92,
     "name": "Brooke Myers",
     "skills": [
-      "MongoDB",
+      "Mongodb",
       "Computer Vision",
       "Data Analysis",
       "React",
-      "TensorFlow"
+      "Tensorflow"
     ],
     "past_projects": [
       "chatbot",
       "object detection"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "74 $",
+    "availability_in_days": 7
   },
   {
     "serial_no": 93,
     "name": "John Brown",
     "skills": [
       "Pandas",
-      "AWS",
+      "Aws",
       "Flask",
-      "PyTorch"
+      "Pytorch"
     ],
     "past_projects": [
       "data pipeline",
       "image recognition",
       "customer segmentation"
     ],
-    "experience_years": 2
+    "experience_years": 2,
+    "expected_rate": "76 $",
+    "availability_in_days": 24
   },
   {
     "serial_no": 94,
@@ -1553,8 +1739,8 @@
     "skills": [
       "Machine Learning",
       "Python",
-      "NumPy",
-      "MongoDB"
+      "Numpy",
+      "Mongodb"
     ],
     "past_projects": [
       "voice assistant",
@@ -1562,7 +1748,9 @@
       "text classification",
       "customer segmentation"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "60 $",
+    "availability_in_days": 22
   },
   {
     "serial_no": 95,
@@ -1570,7 +1758,7 @@
     "skills": [
       "Python",
       "Machine Learning",
-      "TensorFlow"
+      "Tensorflow"
     ],
     "past_projects": [
       "fraud detection",
@@ -1578,13 +1766,15 @@
       "text classification",
       "sales prediction"
     ],
-    "experience_years": 4
+    "experience_years": 4,
+    "expected_rate": "77 $",
+    "availability_in_days": 8
   },
   {
     "serial_no": 96,
     "name": "Joseph Hull",
     "skills": [
-      "MongoDB",
+      "Mongodb",
       "Data Analysis",
       "Docker",
       "Machine Learning"
@@ -1595,7 +1785,9 @@
       "text classification",
       "recommendation system"
     ],
-    "experience_years": 5
+    "experience_years": 5,
+    "expected_rate": "79 $",
+    "availability_in_days": 17
   },
   {
     "serial_no": 97,
@@ -1605,7 +1797,7 @@
       "Deep Learning",
       "Docker",
       "Flask",
-      "Node.js",
+      "Node.Js",
       "Machine Learning"
     ],
     "past_projects": [
@@ -1613,32 +1805,36 @@
       "image recognition",
       "customer segmentation"
     ],
-    "experience_years": 1
+    "experience_years": 1,
+    "expected_rate": "25 $",
+    "availability_in_days": 22
   },
   {
     "serial_no": 98,
     "name": "Chad Mclaughlin",
     "skills": [
-      "TensorFlow",
-      "NumPy",
+      "Tensorflow",
+      "Numpy",
       "Pandas",
-      "Node.js",
-      "JavaScript"
+      "Node.Js",
+      "Javascript"
     ],
     "past_projects": [
       "voice assistant",
       "text classification",
       "data pipeline"
     ],
-    "experience_years": 10
+    "experience_years": 10,
+    "expected_rate": "32 $",
+    "availability_in_days": 9
   },
   {
     "serial_no": 99,
     "name": "Michele Wallace",
     "skills": [
       "Computer Vision",
-      "JavaScript",
-      "MongoDB"
+      "Javascript",
+      "Mongodb"
     ],
     "past_projects": [
       "portfolio website",
@@ -1646,7 +1842,9 @@
       "chatbot",
       "image recognition"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "98 $",
+    "availability_in_days": 7
   },
   {
     "serial_no": 100,
@@ -1661,6 +1859,8 @@
       "recommendation system",
       "text classification"
     ],
-    "experience_years": 6
+    "experience_years": 6,
+    "expected_rate": "13 $",
+    "availability_in_days": 22
   }
 ]
