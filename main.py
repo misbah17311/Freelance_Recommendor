@@ -29,8 +29,7 @@ app = FastAPI()
 @app.get("/")
 def root():
     return {
-        "message": "🚀 Welcome to the Freelancer Recommendation API!",
-        "usage": "POST a job description to /recommend OR visit /docs for Swagger UI."
+        return RedirectResponse(url="/docs")
     }
 
 
