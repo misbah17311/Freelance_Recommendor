@@ -55,7 +55,7 @@ def recommend_freelancers(job: JobPost):
     # Filter by budget and timeline
     filtered = []
     for i, freelancer in enumerate(freelancers):
-        if freelancer.get("expected_rate_hourly", 0) <= job.budget and freelancer.get("availability_in_days",
+        if freelancer.get("expected_rate_hourly", 0) <= job.budget_in_dollars and freelancer.get("availability_in_days",
                                                                                0) <= job.timeline_days:
             filtered.append((i, similarities[i]))
 
