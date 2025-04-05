@@ -28,9 +28,8 @@ app = FastAPI()
 # ✅ New homepage route
 @app.get("/")
 def root():
-    return {
-        return RedirectResponse(url="/docs")
-    }
+    return RedirectResponse(url="/docs")
+    
 
 
 # Request body model
