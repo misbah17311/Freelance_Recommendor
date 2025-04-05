@@ -1,5 +1,6 @@
 # app.py
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 import json
 import numpy as np
@@ -18,11 +19,10 @@ def profile_to_text(profile):
 
 freelancer_texts = [profile_to_text(f) for f in freelancers]
 
-# File paths for saving vectorizer and vectors
+# Precomputed vectorizer and vectors
 VEC_PATH = "vectorizer.joblib"
 VEC_MATRIX_PATH = "freelancer_vectors.joblib"
 
-# Load or create vectorizer and matrix
 if os.path.exists(VEC_PATH) and os.path.exists(VEC_MATRIX_PATH):
     vectorizer = joblib.load(VEC_PATH)
     freelancer_vectors = joblib.load(VEC_MATRIX_PATH)
@@ -34,39 +34,43 @@ else:
     joblib.dump(vectorizer, VEC_PATH)
     joblib.dump(freelancer_vectors, VEC_MATRIX_PATH)
 
-# FastAPI setup
+# FastAPI app
 app = FastAPI(
     title="Freelancer Recommendation API",
-    description="An AI-powered system that suggests top freelancers based on job details (skills, budget, and timeline).",
+    description="Get the top 5 freelancer matches based on project description, budget and timeline.",
     version="1.0.0"
 )
 
-# Request model
+# ✅ Redirect to docs on base URL
+@app.get("/")
+def redirect_to_docs():
+    return RedirectResponse(url="/docs")
+
+# Input model
 class JobPost(BaseModel):
     description: str
     budget: int
     timeline_days: int
 
 # Main recommendation endpoint
-@app.post("/recommend", response_model=None, response_description="Top 5 freelancer matches in plain text")
+@app.post("/recommend")
 def recommend_freelancers(job: JobPost):
     job_vector = vectorizer.transform([job.description])
     similarities = cosine_similarity(job_vector, freelancer_vectors).flatten()
 
-    # Filter by budget and timeline
+    # Filter freelancers by budget and availability
     filtered = []
     for i, freelancer in enumerate(freelancers):
         if freelancer.get("expected_rate", 0) <= job.budget and freelancer.get("availability_in_days", 0) <= job.timeline_days:
             filtered.append((i, similarities[i]))
 
     if not filtered:
-        raise HTTPException(status_code=404, detail="No freelancers match budget/timeline criteria.")
+        raise HTTPException(status_code=404, detail="No freelancers match your budget/timeline.")
 
-    # Sort by similarity
     filtered.sort(key=lambda x: x[1], reverse=True)
     top_indices = [idx for idx, _ in filtered[:5]]
 
-    # Format output
+    # Format results
     result = "🎯 Top Freelancer Matches:\n\n"
     for i, idx in enumerate(top_indices, 1):
         freelancer = freelancers[idx]
