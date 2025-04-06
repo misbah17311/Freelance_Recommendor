@@ -77,7 +77,7 @@ def recommend_ui(request: Request,
     #Sort by similarity
     filtered.sort(key=lambda x: x[1], reverse=True)
 
-    # New logic: check if all top 5 scores are 0
+    #Check if all top 5 scores are 0
     if not filtered or all(score == 0 for _, score in filtered[:5]):
         return templates.TemplateResponse("results.html", {
             "request": request,
