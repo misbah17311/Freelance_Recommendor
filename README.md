@@ -88,12 +88,23 @@ Given a job description and client preferences (budget and timeline), recommend 
 ```bash
 git clone https://github.com/your-username/freelancer-recommender.git
 cd freelancer-recommender
-
-Create Virtual Environment (Optional)
+```
+###2. Create Virtual Environment (Optional)
+```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-#Install Requirements
+source venv/bin/activate # On Windows: venv\Scripts\activate
+```
+
+###3. Install Requirements
+```bash
 pip install -r requirements.txt
-#Start the Server
+```
+###4. Start the Server
+```bash
 uvicorn main:app --reload
-#Visit the App
+```
+###5. Visit the App
+#Open your browser and go to:
+```bash
+👉 http://127.0.0.1:8000/
+```
