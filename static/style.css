@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 body {
+   body {
     font-family: 'Inter', sans-serif;
     background-color: #f4f6f8;
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh;
     align-items: center;
     justify-content: center;
+    /* height: 100vh;  <-- REMOVE or COMMENT this */
+    min-height: 100vh; /* <-- REPLACE with this */
+    flex-direction: column; /* <-- add this to allow top-down stacking */
+}
+
 }
 
 .container {
