@@ -87,7 +87,7 @@ The project is deployed on **Render**.
 ### 🔗 Live Demo:
 👉 [https://freelance-recommendor.onrender.com](https://freelance-recommendor.onrender.com)
 
-> ⚠️ **Note:** Render may take 30–60 seconds to wake up if idle.
+> ⚠️ **Note:** Render may take 1-10 minutes to wake up if idle. Also if it says 502 Bad Gateway then try reloading the link or close the link and open again to remove the error.
 
 ## 🛠️ How to Run the Project Locally
 
@@ -152,6 +152,9 @@ Sample Freelancer Entry
 - **Joblib** – For saving/loading ML models and vectorizers
 - **HTML & CSS** – Frontend design for UI (form and results page)
 
-  
+🙋‍♂️ Author
+MD Misbah Ur Rahman
+
+Feel free to fork the repo or raise issues for suggestions/bugs.
 
   
