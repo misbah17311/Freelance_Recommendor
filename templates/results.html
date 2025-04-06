@@ -13,7 +13,7 @@
             <h2>{{ freelancer.name }}</h2>
             <p><strong>Skills:</strong> {{ ", ".join(freelancer.skills) }}</p>
             <p><strong>Past Projects:</strong> {{ ", ".join(freelancer.past_projects) }}</p>
-            <p><strong>Expected Rate:</strong> ${{ freelancer.expected_rate }}/hour</p>
+            <p><strong>Expected Rate:</strong> {{ freelancer.expected_rate }}/hour</p>
             <p><strong>Availability:</strong> {{ freelancer.available_till_next }} days</p>
             <p><strong>Similarity Score:</strong> {{ freelancer.similarity_score }}</p>
         </div>
