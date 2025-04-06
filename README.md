@@ -129,6 +129,8 @@ uvicorn main:app --reload
 ├── static/
   |   └── style.css                  # CSS styles
 ```
+#Sample Freelancer Entry
+```bash
 {
   "name": "Bryan Gregory",
   "skills": ["Numpy", "Tensorflow", "Pandas"],
@@ -138,6 +140,7 @@ uvicorn main:app --reload
   "availability_in_days": 25,
   "rating": 1.7
 }
+```
   
   
 
