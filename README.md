@@ -77,7 +77,7 @@ Given a job description and client preferences (budget and timeline), recommend 
 
 - **Job Description**:  
   `Looking for a developer to build an AI chatbot using NLP and deploy it using Docker.`  
-- **Budget**: `80`
+- **Budget($)**: `80`
 - **Timeline**: `15`
 
 #### ✅ Expected Output:
