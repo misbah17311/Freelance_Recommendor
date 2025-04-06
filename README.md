@@ -80,6 +80,14 @@ Given a job description and client preferences (budget and timeline), recommend 
   - Similarity Score
 
 ---
+## 🚀 Deployment (Render)
+
+The project is deployed on **Render**.
+
+### 🔗 Live Demo:
+👉 [https://freelance-recommendor.onrender.com](https://freelance-recommendor.onrender.com)
+
+> ⚠️ **Note:** Render may take 30–60 seconds to wake up if idle.
 
 ## 🛠️ How to Run the Project Locally
 
