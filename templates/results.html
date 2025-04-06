@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Matches</title>
+    <style>
+        body { font-family: Arial; }
+        .card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Top Freelancer Recommendations</h1>
+
+    {% if freelancers %}
+        {% for f in freelancers %}
+            <div class="card">
+                <h2>{{ f.name }}</h2>
+                <p><strong>Skills:</strong> {{ f.skills | join(", ") }}</p>
+                <p><strong>Past Projects:</strong> {{ f.past_projects | join(", ") }}</p>
+                <p><strong>Rating:</strong> {{ f.rating }}</p>
+                <p><strong>Expected Hourly Rate:</strong> ${{ f.expected_rate_hourly }}</p>
+                <p><strong>Availability (days):</strong> {{ f.availability_in_days }}</p>
+                <p><strong>Similarity Score:</strong> {{ f.similarity_score }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No freelancers match your criteria.</p>
+    {% endif %}
+</body>
+</html>
