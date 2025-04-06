@@ -8,6 +8,11 @@
 <body>
     <div class="container">
         <h1>Top Freelancer Matches</h1>
+
+        {% if message %}
+            <p style="color: red; font-weight: bold;">{{ message }}</p>
+        {% endif %}
+
         {% for freelancer in freelancers %}
         <div class="card">
             <h2>{{ freelancer.name }}</h2>
@@ -18,6 +23,7 @@
             <p><strong>Similarity Score:</strong> {{ freelancer.similarity_score }}</p>
         </div>
         {% endfor %}
+
         <a href="/" class="back-link">← Back to form</a>
     </div>
 </body>
