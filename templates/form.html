@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Freelancer Finder</title>
+    <meta charset="UTF-8">
+    <title>Freelancer Recommender</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Post a Job</h1>
-    <form method="post" action="/recommend">
-        <label>Description:</label><br>
-        <textarea name="description" rows="4" cols="60" required></textarea><br><br>
-        
-        <label>Budget (USD):</label><br>
-        <input type="number" name="budget_in_dollars" required><br><br>
-        
-        <label>Timeline (in days):</label><br>
-        <input type="number" name="timeline_days" required><br><br>
+    <div class="container">
+        <h2>Find the Best Freelancers</h2>
+        <form action="/recommend" method="post">
+            <input type="text" name="job_title" placeholder="Job Title" required>
+            <textarea name="job_description" rows="6" placeholder="Describe your job..." required></textarea>
+            <button type="submit">Get Recommendations</button>
+        </form>
 
-        <input type="submit" value="Find Freelancers">
-    </form>
+        {% if recommendations %}
+        <div class="recommendations">
+            <h3>Top Freelancers for: {{ job_title }}</h3>
+            <ul>
+                {% for freelancer in recommendations %}
+                <li>
+                    <strong>{{ freelancer.name }}</strong> — Skills: {{ freelancer.skills | join(', ') }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
 </body>
 </html>
-
