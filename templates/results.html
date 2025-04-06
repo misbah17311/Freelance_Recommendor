@@ -1,35 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Top Matches</title>
-    <style>
-        body { font-family: Arial; }
-        .card {
-            border: 1px solid #ccc;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-shadow: 2px 2px 8px #eee;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Top Freelancer Matches</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Top Freelancer Recommendations</h1>
-
-    {% if freelancers %}
-        {% for f in freelancers %}
-            <div class="card">
-                <h2>{{ f.name }}</h2>
-                <p><strong>Skills:</strong> {{ f.skills | join(", ") }}</p>
-                <p><strong>Past Projects:</strong> {{ f.past_projects | join(", ") }}</p>
-                <p><strong>Rating:</strong> {{ f.rating }}</p>
-                <p><strong>Expected Hourly Rate:</strong> ${{ f.expected_rate_hourly }}</p>
-                <p><strong>Availability (days):</strong> {{ f.availability_in_days }}</p>
-                <p><strong>Similarity Score:</strong> {{ f.similarity_score }}</p>
-            </div>
+    <div class="container">
+        <h1>Top Freelancer Matches</h1>
+        {% for freelancer in freelancers %}
+        <div class="card">
+            <h2>{{ freelancer.name }}</h2>
+            <p><strong>Skills:</strong> {{ ", ".join(freelancer.skills) }}</p>
+            <p><strong>Past Projects:</strong> {{ ", ".join(freelancer.past_projects) }}</p>
+            <p><strong>Expected Rate:</strong> ${{ freelancer.expected_rate_hourly }}/hour</p>
+            <p><strong>Availability:</strong> {{ freelancer.availability_in_days }} days</p>
+            <p><strong>Similarity Score:</strong> {{ freelancer.similarity_score }}</p>
+        </div>
         {% endfor %}
-    {% else %}
-        <p>No freelancers match your criteria.</p>
-    {% endif %}
+        <a href="/" class="back-link">← Back to form</a>
+    </div>
 </body>
 </html>
