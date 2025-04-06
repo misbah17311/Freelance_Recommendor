@@ -116,3 +116,15 @@ uvicorn main:app --reload
 ```bash
 👉 http://127.0.0.1:8000/
 ```
+
+📁 project/
+├── main.py                         # FastAPI app logic
+├── freelancer_profiles_updated.json  # Freelancer dataset (sample below)
+├── requirements.txt               # Python dependencies
+├── vectorizer.joblib              # Saved TF-IDF vectorizer
+├── freelancer_vectors.joblib      # Precomputed freelancer vectors
+├── templates/
+│   ├── form.html                  # Web form UI
+│   └── results.html               # Results page
+├── static/
+│   └── style.css                  # CSS styles
