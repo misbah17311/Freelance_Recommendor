@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 body {
-   body {
     font-family: 'Inter', sans-serif;
     background-color: #f4f6f8;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh;  <-- REMOVE or COMMENT this */
-    min-height: 100vh; /* <-- REPLACE with this */
-    flex-direction: column; /* <-- add this to allow top-down stacking */
-}
-
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .container {
@@ -21,8 +14,9 @@ body {
     padding: 2rem 3rem;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 600px;
+    width: 90%;
+    max-width: none;
+    margin: 2rem auto;
 }
 
 h2 {
@@ -44,6 +38,7 @@ textarea {
     border-radius: 8px;
     border: 1px solid #ccc;
     transition: border-color 0.3s;
+    width: 100%;
 }
 
 input[type="text"]:focus,
@@ -74,4 +69,8 @@ button:hover {
     background-color: #f0f8ff;
     border-left: 4px solid #007bff;
     border-radius: 8px;
+}
+
+.freelancer {
+    margin-bottom: 2rem;
 }
