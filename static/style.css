@@ -74,3 +74,11 @@ button:hover {
 .freelancer {
     margin-bottom: 2rem;
 }
+.card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    margin-bottom: 2rem;
+}
+
