@@ -15,7 +15,7 @@ import joblib
 with open("freelancer_profiles_updated.json") as f:
     freelancers = json.load(f)
 for freelancer in freelancers:
-    # Fix rate
+    #rate
     if "expected_rate_hourly" not in freelancer:
         rate_raw = freelancer.get("expected_rate", "0")
         if isinstance(rate_raw, str):
@@ -24,7 +24,7 @@ for freelancer in freelancers:
         else:
             freelancer["expected_rate_hourly"] = rate_raw
 
-    # Fix availability
+    #availability
     if "availability_till_next" not in freelancer and "availability_in_days" in freelancer:
         freelancer["availability_till_next"] = freelancer["availability_in_days"]
 
@@ -49,7 +49,7 @@ else:
     joblib.dump(vectorizer, VEC_PATH)
     joblib.dump(freelancer_vectors, VEC_MATRIX_PATH)
 
-# FastAPI setup
+#FastAPI setup
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
@@ -74,10 +74,10 @@ def recommend_ui(request: Request,
         if freelancer.get("expected_rate_hourly", 0) <= budget_in_dollars and freelancer.get("availability_in_days", 0) <= timeline_days:
             filtered.append((i, similarities[i]))
 
-    # Sort by similarity
+    #Sort by similarity
     filtered.sort(key=lambda x: x[1], reverse=True)
 
-    # New logic: check if all top scores are 0
+    # New logic: check if all top 5 scores are 0
     if not filtered or all(score == 0 for _, score in filtered[:5]):
         return templates.TemplateResponse("results.html", {
             "request": request,
@@ -85,7 +85,7 @@ def recommend_ui(request: Request,
             "message": "No matching freelancers found for this job at the moment."
         })
 
-    # Prepare top freelancers
+    #top 5 freelancers
     top_indices = [idx for idx, _ in filtered[:5]]
     top_freelancers = []
     for i in top_indices:
