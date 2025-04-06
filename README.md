@@ -152,7 +152,26 @@ Sample Freelancer Entry
 - **Joblib** – For saving/loading ML models and vectorizers
 - **HTML & CSS** – Frontend design for UI (form and results page)
 
-🙋‍♂️ Author
+✅ Requirements
+See requirements.txt:
+```bash
+nginx
+Copy
+Edit
+fastapi
+uvicorn
+scikit-learn
+numpy
+jinja2
+python-multipart
+joblib
+```
+Install with:
+```bash
+pip install -r requirements.txt
+```
+
+🙋‍♂️ Author - 
 MD Misbah Ur Rahman
 
 Feel free to fork the repo or raise issues for suggestions/bugs.
