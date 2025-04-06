@@ -7,25 +7,19 @@
 </head>
 <body>
     <div class="container">
-        <h2>Find the Best Freelancers</h2>
-        <form action="/recommend" method="post">
-            <input type="text" name="job_title" placeholder="Job Title" required>
-            <textarea name="job_description" rows="6" placeholder="Describe your job..." required></textarea>
+        <h1>Find Your Ideal Freelancer</h1>
+        <form method="post" action="/recommend">
+            <label for="description">Job Description</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+
+            <label for="budget_in_dollars">Budget ($/hour)</label>
+            <input type="number" id="budget_in_dollars" name="budget_in_dollars" required>
+
+            <label for="timeline_days">Timeline (in days)</label>
+            <input type="number" id="timeline_days" name="timeline_days" required>
+
             <button type="submit">Get Recommendations</button>
         </form>
-
-        {% if recommendations %}
-        <div class="recommendations">
-            <h3>Top Freelancers for: {{ job_title }}</h3>
-            <ul>
-                {% for freelancer in recommendations %}
-                <li>
-                    <strong>{{ freelancer.name }}</strong> — Skills: {{ freelancer.skills | join(', ') }}
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
     </div>
 </body>
 </html>
