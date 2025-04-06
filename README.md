@@ -164,7 +164,7 @@ Sample Freelancer Entry
 - **Joblib** – For saving/loading ML models and vectorizers
 - **HTML & CSS** – Frontend design for UI (form and results page)
 
-✅ Requirements
+✅ Requirements - 
 See requirements.txt:
 ```bash
 fastapi
