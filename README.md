@@ -129,7 +129,7 @@ uvicorn main:app --reload
 ├── static/
   |   └── style.css                  # CSS styles
 ```
-#Sample Freelancer Entry
+Sample Freelancer Entry
 ```bash
 {
   "name": "Bryan Gregory",
@@ -141,7 +141,17 @@ uvicorn main:app --reload
   "rating": 1.7
 }
 ```
-  
+## 🛠️ Technologies Used
+
+- **FastAPI** – Web framework for building APIs quickly
+- **Uvicorn** – ASGI server for serving FastAPI apps
+- **Scikit-learn** – For TF-IDF vectorization and cosine similarity
+- **NumPy** – Numerical computing and array handling
+- **Jinja2** – Templating engine for rendering HTML pages
+- **Python-Multipart** – For handling form data
+- **Joblib** – For saving/loading ML models and vectorizers
+- **HTML & CSS** – Frontend design for UI (form and results page)
+
   
 
   
