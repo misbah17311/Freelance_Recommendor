@@ -74,10 +74,20 @@ def recommend_ui(request: Request,
         if freelancer.get("expected_rate_hourly", 0) <= budget_in_dollars and freelancer.get("availability_in_days", 0) <= timeline_days:
             filtered.append((i, similarities[i]))
 
+    # Sort by similarity
     filtered.sort(key=lambda x: x[1], reverse=True)
+
+    # New logic: check if all top scores are 0
+    if not filtered or all(score == 0 for _, score in filtered[:5]):
+        return templates.TemplateResponse("results.html", {
+            "request": request,
+            "freelancers": [],
+            "message": "No matching freelancers found for this job at the moment."
+        })
+
+    # Prepare top freelancers
     top_indices = [idx for idx, _ in filtered[:5]]
     top_freelancers = []
-
     for i in top_indices:
         freelancer = freelancers[i].copy()
         freelancer["similarity_score"] = round(float(similarities[i]), 3)
@@ -85,5 +95,6 @@ def recommend_ui(request: Request,
 
     return templates.TemplateResponse("results.html", {
         "request": request,
-        "freelancers": top_freelancers
+        "freelancers": top_freelancers,
+        "message": None
     })
