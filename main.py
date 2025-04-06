@@ -15,7 +15,7 @@ import joblib
 with open("freelancer_profiles_updated.json") as f:
     freelancers = json.load(f)
 for freelancer in freelancers:
-    #rate
+    #expected_rate_hourly
     if "expected_rate_hourly" not in freelancer:
         rate_raw = freelancer.get("expected_rate", "0")
         if isinstance(rate_raw, str):
