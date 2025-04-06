@@ -3,4 +3,5 @@ uvicorn
 scikit-learn
 numpy
 jinja2
+python-multipart
 
