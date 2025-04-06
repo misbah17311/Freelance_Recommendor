@@ -50,22 +50,28 @@ Given a job description and client preferences (budget and timeline), recommend 
 ## 🧪 API Functionality & How to Test It
 
 ### 🚀 Endpoint 1: Job Form (UI)
+- **URL:** `/`  
+- **Method:** `GET`  
+- **Template Rendered:** `form.html`  
+- **Description:**  
+  Renders a form where users can input:
+  - Job description  
+  - Budget (in dollars)  
+  - Timeline (in days)  
 
-- **URL**: `/`
-- **Method**: `GET`
-- **Template Rendered**: `form.html`
-- **Description**: **Renders a form where users can input:**
-     `Job description`
-     `Budget (in dollars)`
-     `Timeline (in days)`
-  *This is the homepage of the app — it provides a user-friendly UI for submitting job requirements.*
-- **Description**: Renders a form for submitting job description, budget, and deadline.
+  This is the **homepage** of the app — it provides a **user-friendly UI** for submitting job requirements.
+
+---
 
 ### 🚀 Endpoint 2: Get Recommendations
+- **URL:** `/recommend`  
+- **Method:** `POST`  
+- **Template Rendered:** `results.html`  
+- **Description:**  
+  Processes the submitted job details and returns the **top 5 matching freelancers** based on:
+  - **TF-IDF similarity score**  
+  - **Budget and timeline filters**
 
-- **URL**: `/recommend`
-- **Method**: `POST`
-- **Description**: Returns the top 5 freelancer recommendations.
 
 #### 📝 Sample Form Submission
 
