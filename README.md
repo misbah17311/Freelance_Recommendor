@@ -53,6 +53,12 @@ Given a job description and client preferences (budget and timeline), recommend 
 
 - **URL**: `/`
 - **Method**: `GET`
+- **Template Rendered**: `form.html`
+- **Description**: **Renders a form where users can input:**
+     `Job description`
+     `Budget (in dollars)`
+     `Timeline (in days)`
+  *This is the homepage of the app — it provides a user-friendly UI for submitting job requirements.*
 - **Description**: Renders a form for submitting job description, budget, and deadline.
 
 ### 🚀 Endpoint 2: Get Recommendations
