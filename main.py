@@ -15,10 +15,19 @@ import joblib
 with open("freelancer_profiles_updated.json") as f:
     freelancers = json.load(f)
 for freelancer in freelancers:
-    if "expected_rate_hourly" not in freelancer and "expected_rate" in freelancer:
-        freelancer["expected_rate_hourly"] = freelancer["expected_rate"]
+    # Fix rate
+    if "expected_rate_hourly" not in freelancer:
+        rate_raw = freelancer.get("expected_rate", "0")
+        if isinstance(rate_raw, str):
+            rate_numeric = ''.join(c for c in rate_raw if c.isdigit() or c == '.')
+            freelancer["expected_rate_hourly"] = float(rate_numeric) if rate_numeric else 0
+        else:
+            freelancer["expected_rate_hourly"] = rate_raw
+
+    # Fix availability
     if "availability_till_next" not in freelancer and "availability_in_days" in freelancer:
         freelancer["availability_till_next"] = freelancer["availability_in_days"]
+
 # Combine text fields for TF-IDF matching
 def profile_to_text(profile):
     return " ".join(profile["skills"] + profile["past_projects"] * 2)
