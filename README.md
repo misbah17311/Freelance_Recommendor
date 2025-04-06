@@ -155,9 +155,6 @@ Sample Freelancer Entry
 ✅ Requirements
 See requirements.txt:
 ```bash
-nginx
-Copy
-Edit
 fastapi
 uvicorn
 scikit-learn
