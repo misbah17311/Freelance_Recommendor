@@ -91,43 +91,44 @@ The project is deployed on **Render**.
 
 ## 🛠️ How to Run the Project Locally
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/freelancer-recommender.git
 cd freelancer-recommender
 ```
-###2. Create Virtual Environment (Optional)
+2. Create Virtual Environment (Optional)
 ```bash
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
 
-###3. Install Requirements
+3. Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
-###4. Start the Server
+4. Start the Server
 ```bash
 uvicorn main:app --reload
 ```
-###5. Visit the App
+5. Visit the App
 #Open your browser and go to:
 ```bash
 👉 http://127.0.0.1:8000/
 ```
 📁 project/
-#├── main.py                         # FastAPI app logic
-#├── freelancer_profiles_updated.json  # Freelancer dataset (sample below)
-#├── requirements.txt               # Python dependencies
-#├── vectorizer.joblib              # Saved TF-IDF vectorizer
-#├── freelancer_vectors.joblib      # Precomputed freelancer vectors
-#├── templates/
-  #│   ├── form.html                  # Web form UI
-  #│   └── results.html               # Results page
-#├── static/
-  #│   └── style.css                  # CSS styles
-
+```bash
+├── main.py                         # FastAPI app logic
+├── freelancer_profiles_updated.json  # Freelancer dataset (sample below)
+├── requirements.txt               # Python dependencies
+├── vectorizer.joblib              # Saved TF-IDF vectorizer
+├── freelancer_vectors.joblib      # Precomputed freelancer vectors
+├── templates/
+  │   ├── form.html                  # Web form UI
+  │   └── results.html               # Results page
+├── static/
+  |   └── style.css                  # CSS styles
+```
 {
   "name": "Bryan Gregory",
   "skills": ["Numpy", "Tensorflow", "Pandas"],
