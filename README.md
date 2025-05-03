@@ -1,6 +1,6 @@
 # 🤖 AI-Powered Freelancer Recommendation System
 
-This project is built as part of the **PeerHire AI/ML Internship Assignment**. It is a full-stack application that leverages **Natural Language Processing (NLP)** and **Machine Learning** to recommend the top 5 most relevant freelancers for a given job post, filtered by **budget** and **timeline**.
+This is a full-stack application that leverages **Natural Language Processing (NLP)** and **Machine Learning** to recommend the top 5 most relevant freelancers for a given job post, filtered by **budget** and **timeline**.
 
 ---
 
